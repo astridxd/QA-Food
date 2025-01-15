@@ -10,7 +10,7 @@ Data cleanup/prepocessing was necessary and you can find the updated version in 
 columns need to be understood as numbers rather than text etc.) 
 
 ⚙️ Setup and Usage <br />
-Install the required dependencies:``` pip install pandas transformers newspaper3k <br />```
+Install the required dependencies:``` pip install pandas transformers newspaper3k torch```
 Run the main script: python main.py  (when first running this script the 2 LLMs will autumatically start downloading, this will take a while since they are quite big >= 4GB)
 
 Key Components: <br />
