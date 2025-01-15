@@ -50,8 +50,8 @@ class AnswerLLM:
             not output.strip() or
             'error' in output.lower() or  
             re.search(r'\bnan\b', output.lower())
-        ) >= 2:
+        ) >= 2 or any("not findable" in output for output in outputs):
             search_results = web_search(question)
-            
+            print(search_results)
         return self.llm_model.generate(self._create_prompt(question, outputs, search_results))
     
