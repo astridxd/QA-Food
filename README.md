@@ -23,10 +23,10 @@ Key Components: <br />
         - Creates prompts for code and answer generation<br />
         - Executes the generated code and captures the output <br />
 
-External Tools and APIs:
-    Pandas: Used for data manipulation and analysis of the nutritional database.
-    Hugging Face Transformers: Utilized for loading and running the language models.
-    Language Models: Code Generation: "Qwen/Qwen2.5-Coder-3B-Instruct" || Answer Generation: "microsoft/Phi-3.5-mini-instruct"
+External Tools and APIs: <br />
+    Pandas: Used for data manipulation and analysis of the nutritional database. <br />
+    Hugging Face Transformers: Utilized for loading and running the language models.<br />
+    Language Models: Code Generation: "Qwen/Qwen2.5-Coder-3B-Instruct" || Answer Generation: "microsoft/Phi-3.5-mini-instruct"<br />
 
 
 🎬 Quick Demo<br />
