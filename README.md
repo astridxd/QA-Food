@@ -5,23 +5,23 @@
 This project is a Question Answering (QA) system designed to provide information about food nutritional values. <br />
 The system uses 2 Large Language Models (Qwen2.5-Coder-3B-Instruct and Phi-3.5-mini-instruct)
 to generate code and answers based on a nutritional database. <br />
-The origincal data comes from the National Institute for Public Health and the Environment and it can be found via this link: https://www.rivm.nl/documenten/nevo-online-2023-achtergrondinformatie
-Data cleanup/prepocessing was necessary and you can find the updated version in the newtry.csv (some prepocessing steps required include: replace the original dividers "|" with ",", indicate that some 
-columns need to be understood as numbers rather than text etc.)
+The origincal data comes from the National Institute for Public Health and the Environment and it can be found via this link: https://www.rivm.nl/documenten/nevo-online-2023-achtergrondinformatie <br />
+Data cleanup/prepocessing was necessary and you can find the updated version in the trydata2.csv (some prepocessing steps required include: replace the original dividers "|" with ",", indicate that some 
+columns need to be understood as numbers rather than text etc.) 
 
-⚙️ Setup and Usage
-Install the required dependencies: pip install pandas transformers newspaper3k
+⚙️ Setup and Usage <br />
+Install the required dependencies: pip install pandas transformers newspaper3k <br />
 Run the main script: python main.py  (when first running this script the 2 LLMs will autumatically start downloading, this will take a while since they are quite big >= 4GB)
 
-Key Components:
-    main.py
-        Loads the nutritional data CSV into a pandas DataFrame
-        Initializes the LLMModel
+Key Components: <br />
+    main.py<br />
+        Loads the nutritional data CSV into a pandas DataFrame <br />
+        Initializes the LLMModel<br />
         Processes questions and generates answers -> Here you can input your desired question(s) in the questions dictionary.
-    LLMModel.py
-        Manages two language models: one for code generation and another for answer generation
-        Creates prompts for code and answer generation
-        Executes the generated code and captures the output
+    LLMModel.py<br />
+        Manages two language models: one for code generation and another for answer generation<br />
+        Creates prompts for code and answer generation<br />
+        Executes the generated code and captures the output <br />
 
 External Tools and APIs:
     Pandas: Used for data manipulation and analysis of the nutritional database.
