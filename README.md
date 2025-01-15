@@ -72,8 +72,8 @@ Integration with meal planning<br />
 Try your best to answer from the provided database, when in doubt, query the internet.<br />
 Always provide context, not just facts<br />
 
-🎯 The Journey
-
+🎯 The Journey<br />
+One of the most important things I have learnt is that prompt engineering is more important than i thought and that choosing the right model for the task can be more tricky than anticipated.
 
 🤝 Let's Connect<br />
 I'd love to hear your thoughts on making this even better! Feel free to reach out at iliescu.astrid@yahoo.com
