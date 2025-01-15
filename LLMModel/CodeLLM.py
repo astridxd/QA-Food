@@ -21,10 +21,10 @@ class CodeLLM:
             Generate python code that finds the needed data from this database and calculates the answer for this question, make sure to handle na values:
             {question}
     
-            If you think you can not answer this question with the database, for questions asking about daily intake requirements for example, just say "print("error")"
+            If you think you can not answer this question with the database, for questions asking about daily intake requirements for example, just say "print("not findable")"
             Be careful that when looking in Dutch for foods like 'Aardappelen rauw' you will have to look in the 'Dutch food name' column.
             When checking if something contains something else, you should use str.contains() method.
-            
+            When looking for a food group you should look in the "Food group" column with the english name for the food group, like "Vegetables".
             Pandas has already been imported DO NOT: "import pandas as pd". The data is already in a pandas dataframe called df. 
             Add a print statement to print the result of the data query. Output only python code without comments and print the result, nothing else.
         """
