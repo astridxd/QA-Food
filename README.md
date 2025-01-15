@@ -1,4 +1,4 @@
-🥑 NutriBot: Your Friendly Food Q&A Assistant
+🥑 NutriBot: Your Friendly Food Q&A Assistant <br />
 "Because sometimes you just need to know how many calories are in that midnight snack!"
 
 🛠️ Behind the Curtain
