@@ -1,9 +1,10 @@
 🥑 NutriBot: Your Friendly Food Q&A Assistant <br />
 "Because sometimes you just need to know how many calories are in that midnight snack!"
 
-🛠️ Behind the Curtain
-This project is a Question Answering (QA) system designed to provide information about food nutritional values. The system uses 2 Large Language Models (Qwen2.5-Coder-3B-Instruct and Phi-3.5-mini-instruct)
-to generate code and answers based on a nutritional database.
+🛠️ Behind the Curtain <br />
+This project is a Question Answering (QA) system designed to provide information about food nutritional values. <br />
+The system uses 2 Large Language Models (Qwen2.5-Coder-3B-Instruct and Phi-3.5-mini-instruct)
+to generate code and answers based on a nutritional database. <br />
 The origincal data comes from the National Institute for Public Health and the Environment and it can be found via this link: https://www.rivm.nl/documenten/nevo-online-2023-achtergrondinformatie
 Data cleanup/prepocessing was necessary and you can find the updated version in the newtry.csv (some prepocessing steps required include: replace the original dividers "|" with ",", indicate that some 
 columns need to be understood as numbers rather than text etc.)
