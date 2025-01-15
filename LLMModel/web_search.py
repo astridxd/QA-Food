@@ -11,9 +11,14 @@ def _fetch_main_content(url):
     except Exception as e:
         return f"Failed to fetch content from {url}: {e}"
 
-def web_search(question):
+def web_search(question, max_words=400):
     results = []
     for result in search(question, num_results=2):
-        results.append(result + ":\n" + _fetch_main_content(result))
+        # Fetch and process content with newlines
+        content = " ".join(_fetch_main_content(result).split()[:max_words])
+        formatted_result = f"{result}:\n{content}\n"  # Add newline at the end
+        results.append(formatted_result)
     
-    return "\n".join(results)
+    # Join results with an extra newline between entries
+    return "\n\n".join(results)
+
