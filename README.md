@@ -45,6 +45,12 @@ NutriBot:
 The energy content (in kcal) of 100 grams of 'Aardappelen rauw' (raw potatoes) is 88 kcal. This information comes from the NEVO-Online 2023 food nutrition database.
 --------------------------------------------------
 
+You: What is the recommended daily intake of dietary fiber for an adult? 
+--------------------------------------------------
+NutriBot:
+https://www.ucsfhealth.org/education/increasing-fiber-intake:
+[...] Total dietary fiber intake should be 25 to 30 grams a day from food, not supplements. Currently, dietary fiber intakes among adults in the United States average about 15 grams a day. That's about half the recommended amount.
+--------------------------------------------------
 
 📐Project Architecture
 
