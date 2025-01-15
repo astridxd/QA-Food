@@ -48,9 +48,9 @@ The energy content (in kcal) of 100 grams of 'Aardappelen rauw' (raw potatoes) i
 
 📐Project Architecture
 
-The main functionality loop is managed in the main() function, if this project were to be used in other context I would put the main model in a QAMachine class for encapsulated use.
-The main() function uses a CodeLLM object to generate database queries and an AnswerLLM object to generate the final answer given the code outputs or a web search as a fallback method.
-These CodeLLM and AnswerLLM classes have an LLMModel object which actually contains the model they use to generate. This contains functionality that both LLM classes use for generation.
+The main functionality loop is managed in the main() function, if this project were to be used in other context I would put the main model in a QAMachine class for encapsulated use.<br />
+The main() function uses a CodeLLM object to generate database queries and an AnswerLLM object to generate the final answer given the code outputs or a web search as a fallback method.<br />
+These CodeLLM and AnswerLLM classes have an LLMModel object which actually contains the model they use to generate. This contains functionality that both LLM classes use for generation.<br />
 The prompts are made in the CodeLLM and AnswerLLM classes. There are two utility functions, load_llm_model() and web_search(), which load an LLM model and search a question on the web respectively.
 
                                                                 Project Architecture Graph
