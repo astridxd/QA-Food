@@ -10,7 +10,7 @@ def clean_code(text):
     return text
 
 def main():
-    # Set the mode: Developer or User
+    # Set the mode: Developer or User. The Developer mode will also showcase the code the LLM is trying to execute, not just the final answer.
     is_dev_mode = input("Enter mode ('dev' for Developer Mode, 'user' for User Mode): ").strip().lower() == "dev"
     
     # Load the data and convert the numeric columns so they are treated as numbers
