@@ -29,9 +29,9 @@ External Tools and APIs:
     Language Models: Code Generation: "Qwen/Qwen2.5-Coder-3B-Instruct" || Answer Generation: "microsoft/Phi-3.5-mini-instruct"
 
 
-🎬 Quick Demo
-Here's a real conversation with NutriBot:
-You: Calculate the average fat content (in grams) for all foods in the 'Groente' (vegetables) category.
+🎬 Quick Demo<br />
+Here's a real conversation with NutriBot:<br />
+You: Calculate the average fat content (in grams) for all foods in the 'Groente' (vegetables) category.<br />
 --------------------------------------------------
 NutriBot: The average fat content for all foods in the 'Groente' (vegetables) category is approximately 0.465 grams. This value is calculated based on the available data
 in the food nutrition database. It represents the mean amount of fat found in various vegetables, providing a general understanding of the fat content within this category.
