@@ -15,13 +15,13 @@ Run the main script: python main.py  (when first running this script the 2 LLMs 
 
 Key Components: <br />
     main.py<br />
-        Loads the nutritional data CSV into a pandas DataFrame <br />
-        Initializes the LLMModel<br />
-        Processes questions and generates answers -> Here you can input your desired question(s) in the questions dictionary.
+        - Loads the nutritional data CSV into a pandas DataFrame <br />
+        - Initializes the LLMModel<br />
+        - Processes questions and generates answers <br />
     LLMModel.py<br />
-        Manages two language models: one for code generation and another for answer generation<br />
-        Creates prompts for code and answer generation<br />
-        Executes the generated code and captures the output <br />
+        - Manages two language models: one for code generation and another for answer generation<br />
+        - Creates prompts for code and answer generation<br />
+        - Executes the generated code and captures the output <br />
 
 External Tools and APIs:
     Pandas: Used for data manipulation and analysis of the nutritional database.
@@ -59,23 +59,23 @@ The prompts are made in the CodeLLM and AnswerLLM classes. There are two utility
                                                     LLMModel  <        web_search()  <  >    LLMModel
                             Qwen-Coder-2.5-Instruct    <                                         >   Phi-3.5-mini-instruct
 
+
+🌱 Future Garden <br />
+Ideas I'm excited to grow: <br />
+Better models on servers that can handle them<br />
+Handling g > mg calculations better<br />
+Adding more safety when running generated code<br />
+Custom dietary preference profiles<br />
+Integration with meal planning<br />
+
+🎨 Design Philosophy<br />
+Try your best to answer from the provided database, when in doubt, query the internet.<br />
+Always provide context, not just facts<br />
+
 🎯 The Journey
 
 
-
-🌱 Future Garden
-Ideas I'm excited to grow:
-Better models on servers that can handle them
-Handling g > mg calculations better
-Adding more safety when running generated code
-Custom dietary preference profiles
-Integration with meal planning
-
-🎨 Design Philosophy
-Try your best to answer from the provided database, when in doubt, query the internet.
-Always provide context, not just facts
-
-🤝 Let's Connect
+🤝 Let's Connect<br />
 I'd love to hear your thoughts on making this even better! Feel free to reach out at iliescu.astrid@yahoo.com
 
 Built with ❤️ and probably too much coffee ☕
